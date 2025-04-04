@@ -1,0 +1,40 @@
+[
+    {
+        "UpdateStageName": "Linux Game Server Download (Stable)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": " globed-game-server-arm64",
+        "UpdateSourceArgs": "GlobedGD/globed2",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "Nightly",
+        "UpdateSourceConditionValue": "false",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Windows Game Server Download (Stable)",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "globed-game-server.exe",
+        "UpdateSourceArgs": "GlobedGD/globed2",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "Nightly",
+        "UpdateSourceConditionValue": "false",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Game Server Download (Nightly)",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://nightly.link/GlobedGD/globed2/workflows/server/main/globed-server-build.zip",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": false,
+        "UpdateSourceConditionSetting": "Nightly",
+        "UpdateSourceConditionValue": "true",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]

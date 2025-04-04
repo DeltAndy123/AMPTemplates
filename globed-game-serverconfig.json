@@ -1,0 +1,42 @@
+[
+    {
+        "DisplayName": "Use Nightly",
+        "Category": "Server Settings",
+        "Description": "Whether to use the nightly release or the stable release",
+        "Keywords": "use,nightly",
+        "FieldName": "Nightly",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Nightly",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "Placeholder": "false",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Validate Username",
+        "Category": "Server Settings",
+        "Description": "Whether to validate accounts joining the server (disable if using OSS client build)",
+        "Keywords": "validate,username",
+        "FieldName": "ValidateUsername",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ValidateUsername",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "Placeholder": "true",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    }
+]
