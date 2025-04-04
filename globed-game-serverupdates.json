@@ -3,7 +3,7 @@
         "UpdateStageName": "Linux Game Server Download (Stable)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
-        "UpdateSourceData": " globed-game-server-arm64",
+        "UpdateSourceData": "globed-game-server-arm64",
         "UpdateSourceArgs": "GlobedGD/globed2",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
