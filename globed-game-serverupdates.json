@@ -39,5 +39,13 @@
         "UpdateSourceConditionValue": "true",
         "DeleteAfterExtract": true,
         "OneShot": false
-    }
+    },
+    {
+        "UpdateStageName": "Game Server Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
+        "UpdateSourceArgs": "-c \"chmod +x {{$FullBaseDir}}globed-game-server-*\"",
+        "SkipOnFailure": false
+    },
 ]
