@@ -9,7 +9,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "Nightly",
-        "UpdateSourceConditionValue": "false",
+        "UpdateSourceConditionValue": "False",
         "DeleteAfterExtract": true,
         "OneShot": false
     },
@@ -23,7 +23,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "Nightly",
-        "UpdateSourceConditionValue": "false",
+        "UpdateSourceConditionValue": "False",
         "DeleteAfterExtract": true,
         "OneShot": false
     },
@@ -36,7 +36,7 @@
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "UpdateSourceConditionSetting": "Nightly",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionValue": "True",
         "DeleteAfterExtract": true,
         "OneShot": false
     },
